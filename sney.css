@@ -1,0 +1,137 @@
+body {
+    background-color: #EEE;
+    padding-top: 100px;
+    margin:0px;
+}
+a {
+    text-decoration: none;
+}
+nav.navbar {
+    text-align: left;
+    position: fixed;
+    top: 0px;
+    left:0px;
+    right:0px;
+    color:#EEE;
+    padding-left: 35px;
+    min-width: 700px;
+    background: linear-gradient(#555,#333);
+    margin:0px;
+    height:60px;
+    font-family: sans-serif;
+}
+
+div.content {
+    text-align: left;
+    min-width: 700px;
+    max-width: 1200px;
+    margin:5px;
+}
+
+div.header {
+    color: #444;
+    font-family:sans-serif;
+}
+
+div.page {
+    background-color: #DDD;
+    font-family: sans-serif;
+    border-radius: 4px;
+    padding:10px 20px 10px 20px;
+    box-shadow: 2px 4px 4px 2px;
+    margin:0;
+    margin-bottom: 50px;
+}
+
+
+
+
+/* Navigational Bar */
+div.navbtn {
+    float: left;
+    height:60px;
+    margin:0px;
+}
+div.navbtn > a {
+    float: left;
+    height:40px;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: linear-gradient(#555,#333);
+}
+div.navbtn:hover > a {
+    background: linear-gradient(#888,#666);
+}
+div.nohov > a {
+    padding-top:18px;
+}
+div.nohov:hover > a {
+    background: linear-gradient(#555,#333);
+}
+div.navbtn > a {
+    text-decoration: none;
+    color:#DDD;
+    height:40px;
+}
+div.navbtn > a > h3 {
+    margin:0px;
+    padding:0px;
+    text-shadow: 2px 2px #000;
+}
+div.navsep {
+    float: left;
+    height:40px;
+    width: 3px;
+    background:linear-gradient(#EEE,#CCC);
+    box-shadow: 2px 2px #000;
+    margin:10px;
+}
+div.nav_dis > a {
+    background:linear-gradient(#333,#111);
+}
+div.nav_dis:hover > a {
+    background:linear-gradient(#333,#111);
+}
+
+/* User Input */
+input.btn {
+    border-color: #aaa;
+    font-family: sans-serif;
+    font-size: 14px;
+    padding:5px 10px 5px 10px;
+    border-radius:4px;
+    background: linear-gradient(#DDD, #BBB);
+}
+input.btn:hover {
+    background: linear-gradient(#EEE, #CCC);
+}
+input.btn:active {
+    background: linear-gradient(#AAA, #CCC);
+}
+
+input.txt, input.pw {
+    height:24px;
+    font-size: 14px;
+    padding:0;
+    margin:0;
+}
+
+
+
+div.code {
+    font-family: monospace;
+    background-color:#202020;
+    color:#EEE;
+    padding:10px;
+}
+span.key {
+    color:#88f;
+}
+span.string {
+    color:#f88;
+}
+span.class {
+    color:#8ff;
+}
